@@ -1,0 +1,12 @@
+.next/
+
+node_modules
+.env
+.env.local
+
+.DS_Store./.DS_Store
+./backend/.DS_Store
+./frontend/.DS_Store
+./frontend/node_modules/.DS_Store
+./frontend/node_modules/next/.DS_Store
+./frontend/node_modules/next/dist/.DS_Store
