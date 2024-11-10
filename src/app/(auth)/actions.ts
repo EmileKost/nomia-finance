@@ -1,8 +1,8 @@
 "use server";
 
-import createClient from "@/utils/supabase/server";
+import createClient from "@/utils/supabase/client";
 
-const supabase = await createClient();
+const supabase = createClient();
 
 export const login = () => {
 	console.log("Logging in");
